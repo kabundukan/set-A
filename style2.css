@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+}
+@font-face{
+    src: url(./fonts/Montserrat-Bold.ttf);
+    font-family: mont-b;
+}
+@font-face{
+    src: url(./fonts/Motorblock.ttf);
+    font-family: motor;
+}
+body{
+    background: #2196f3;
+}
+.container1{
+    color: #b40e74;
+    position: relative;
+    margin-top: 1%;
+    margin-left: 25%;
+    padding: 9%;
+    padding-bottom: 14%;
+    height: 300px;
+    width: 350px;
+    letter-spacing: 0.5px;
+    font-size: 21px;
+    background: #2196f3;
+    border-radius: 10px;
+    box-shadow: -8px -8px 8px #dfebf7d2, 8px 8px 8px #020a11cc;   
+}
+h3{
+    text-align: center;
+    padding: 10px;
+    margin-top: -30%;
+    font-family: motor;
+}
+#motor-png{
+   width: 580px;
+   margin-left: -33%;
+   background: white;
+   border-radius: 5px;
+   box-shadow: -3px -3px 5px #020a118e,  3px 3px 5px #020a118e;
+}
+.content{
+    margin-top: 5%;
+}
+.random{
+    margin-left: -33%;
+    margin-top: -3%;
+}
+#random-color{
+    font-family: mont-b;
+    font-style: oblique;
+}
+#random-b{
+    margin-top: 3%;
+    width: 1.5in;
+    height: 30px;
+    margin-left: 5%;
+    font-family: mont-b;
+    letter-spacing: 0.7px;
+    color: white;
+    background-color: #2fb40e;
+    border: unset;
+    box-shadow: -3px -3px 7px #dfebf7d2,  3px 3px 5px #020a11cc;   
+    border-radius: 10px;
+    cursor: pointer;
+}
+#random-b:hover{
+    box-shadow:inset -3px -3px 7px #dfebf7d2,inset  3px 3px 5px #020a11cc;   
+    letter-spacing: 0.4px;
+    color: rgb(219, 217, 217);
+}
+select{
+    margin-top: 4%;
+    margin-right: -88%;
+    width: 1.5in;
+    height: 30px;
+    margin-bottom: 5px;
+    font-family: mont-b;
+    color: grey;
+    border: unset;
+    box-shadow: -3px -3px 7px #dfebf7d2,  3px 3px 5px #020a11cc;   
+    border-radius: 10px;
+}
+select:hover{
+    width: 1.6in;
+    height:  31px;
+    margin-right: -91%;
+}
+.specific{
+    text-align: right;
+    margin-top: -11%;
+    position: absolute;
+}
+#specific-color{
+    margin-right: -104%;
+    font-family: mont-b;
+    font-style: oblique;
+}
+.specific-b{
+    margin-right: -94%;
+}
+#specific-b1{
+    margin-top: 3%;
+    width: 0.9in;
+    letter-spacing: 0.7px;
+    height: 30px;
+    font-family: mont-b;
+    color: white;
+    background-color: #0e7fb4;
+    border: unset;
+    box-shadow: -3px -3px 7px #dfebf7d2,  3px 3px 5px #020a11cc;   
+    border-radius: 10px;
+    cursor: pointer;
+}
+#specific-b1:hover{
+    color: rgb(219, 217, 217);
+    box-shadow:inset -3px -3px 7px #dfebf7d2,inset  3px 3px 5px #020a11cc;   
+    letter-spacing: 0.4px;
+}
+#specific-b2{
+    width: 0.9in;
+    height: 30px;
+    letter-spacing: 0.7px;
+    font-family: mont-b;
+    color: white;
+    background-color: grey;
+    border: unset;
+    box-shadow: -3px -3px 7px #dfebf7d2,  3px 3px 5px #020a11cc;   
+    border-radius: 10px;
+    cursor: pointer;
+}
+#specific-b2:hover{
+    color: rgb(219, 217, 217);
+    box-shadow:inset -3px -3px 7px #dfebf7d2,inset  3px 3px 5px #020a11cc;   
+    letter-spacing: 0.4px;
+}
+.reset-color{
+    opacity: 0;
+}
+@media only screen and (max-width: 576px){
+    .container1{
+        margin-top: 30%;
+        margin-left: unset;
+        height: 250px;
+        width: 300px;
+        letter-spacing: 0.5px;
+        font-size: 18px;
+        border-radius: 8px;
+        box-shadow: -4px -4px 8px #dfebf7d2, 4px 4px 8px #020a11cc;   
+    }
+    h3{
+        font-size: 15px;
+        padding: 8px;
+        margin-top: -15%;
+        font-family: motor;
+    }
+    #motor-png{
+        width: 380px;
+        margin-left: -13.5%;
+        border-radius: 3px;
+     }
+     .content{
+        margin-top: 3%;
+    }
+    .random{
+        margin-left: -13%;
+        margin-top: -3%;
+    }
+    #random-color{
+        font-size: 12px;
+    }
+    #random-b{
+        margin-top: 3%;
+        width: 100px;
+        height: 30px;
+        letter-spacing: 0.3px;
+        border-radius: 8px;
+    }
+    #random-b:hover{
+        letter-spacing: 0.1px;
+    }
+    select{
+        width: 1in;
+        height: 27px;
+        border-radius: 8px;
+    }
+    select:hover{
+        width: 1.1in;
+        height:  29px;
+    }
+    .specific{
+        margin-top: -14%;
+    }
+    #specific-color{  
+        font-size: 12px;
+    }
+    #specific-b1{
+        margin-top: 0.5%;
+        width: 0.7in;
+        letter-spacing: 0.5px;
+        height: 25px;
+        border-radius: 8px;
+    }
+    #specific-b1:hover{
+        letter-spacing: 0.3px;
+    }
+    #specific-b2{
+        width: 0.7in;
+        height: 25px;
+        letter-spacing: 0.5px; 
+        border-radius: 8px;
+    }
+    #specific-b2:hover{
+        letter-spacing: 0.3px;
+    }
+}
